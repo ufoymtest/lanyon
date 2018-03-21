@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Deepo
+excerpt_separator: ---
 ---
 
 ***Deepo*** is a series of [*Docker*](http://www.docker.com/) images that
