@@ -10,7 +10,7 @@ tagline:             'ufoym's blog'
 description:         'ufoym's blog'
 url:                 http://ufoym.com
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 # About/contact
 author:
