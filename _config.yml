@@ -6,8 +6,8 @@ permalink:        pretty
 
 # Setup
 title:            'cout << ym'
-tagline:          'ufoym's blog'
-description:      'ufoym's blog'
+tagline:          "ufoym's blog"
+description:      "ufoym's blog"
 url:              http://ufoym.com
 
 author:
