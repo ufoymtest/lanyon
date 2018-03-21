@@ -10,7 +10,7 @@ author:
   name:           'Ming (ufoym)'
   url:            http://ufoym.com
 
-paginate:         1
+paginate:         8
 
 # Custom vars
 version:          1.0.0
