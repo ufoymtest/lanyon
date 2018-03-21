@@ -3,21 +3,21 @@ layout: default
 title: Home
 ---
 
-  <h2>Recent Posts</h2>
-  <ul class="related-posts">
-    {% for post in paginator.posts %}
-      <li>
-        <h3>
-          <a href="{{ site.url }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+<h2>Recent Posts</h2>
+<ul class="related-posts">
+  {% for post in paginator.posts %}
+    <li>
+      <h3>
+        <a href="{{ site.url }}{{ post.url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
+      </h3>
+    </li>
+  {% endfor %}
+</ul>
 
----
+<hr />
 
 <div class="posts">
   {% for post in paginator.posts %}
