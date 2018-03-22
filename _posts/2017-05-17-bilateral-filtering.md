@@ -6,11 +6,24 @@ excerpt_separator: ---
 
 Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. One effective way to solve this problem is to apply an edge-preserving filtering called a ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative and finnaly found ***recursive bilateral filtering***
 
+
+For more details of the algorithm, please refer to the original paper
+
+    @inproceedings{yang2012recursive,
+        title={Recursive bilateral filtering},
+        author={Yang, Qingxiong},
+        booktitle={European Conference on Computer Vision},
+        pages={399--413},
+        year={2012},
+        organization={Springer}
+    }
+    
+
   > Yang, Qingxiong.
   **Recursive bilateral filtering**. 
-  *ECCV* 2012.
+  *European Conference on Computer Vision* 2012.
 
-that can achieve a good trade-off between efficiency and effectiveness:
+which can achieve a good trade-off:
 
 <table>
 <tr>
@@ -34,13 +47,3 @@ Recursive bilateral filtering (developed by Qingxiong Yang) is pretty fast compa
 - about 18x faster than *Fast high-dimensional filtering using the permutohedral lattice*
 - about 86x faster than *Gaussian kd-trees for fast high-dimensional filtering*
 
-For more details of the algorithm, please refer to the original paper
-
-    @inproceedings{yang2012recursive,
-        title={Recursive bilateral filtering},
-        author={Yang, Qingxiong},
-        booktitle={European Conference on Computer Vision},
-        pages={399--413},
-        year={2012},
-        organization={Springer}
-    }
