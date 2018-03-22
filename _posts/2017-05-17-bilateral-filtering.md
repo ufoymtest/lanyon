@@ -4,13 +4,7 @@ title: Real-time Bilateral Filtering
 excerpt_separator: ---
 ---
 
-Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. One effective way to solve this problem is to apply an edge-preserving filtering called a ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative and finnaly found ***recursive bilateral filtering***
-
-  > Yang, Qingxiong.
-  **Recursive bilateral filtering**. 
-  *European Conference on Computer Vision* 2012.
-
-which can achieve a good trade-off:
+Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. One effective way to solve this problem is to apply an edge-preserving filtering called a ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative, and finally found ***recursive bilateral filtering*** that can achieve a good trade-off:
 
 <table>
 <tr>
@@ -32,3 +26,8 @@ The algorithm is pretty fast compared with most edge-preserving filtering method
 - about 18x faster than *Fast high-dimensional filtering using the permutohedral lattice*
 - about 86x faster than *Gaussian kd-trees for fast high-dimensional filtering*
 
+For more details of the algorithm, please refer to the original paper
+
+  > Yang, Qingxiong.
+  **Recursive bilateral filtering**. 
+  *European Conference on Computer Vision* 2012.
