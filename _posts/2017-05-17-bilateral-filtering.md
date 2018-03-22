@@ -12,7 +12,9 @@ To solve this problem, an effective way is to apply an edge-preserving filtering
   **Recursive bilateral filtering**. 
   *European Conference on Computer Vision* 2012.
   
-that can achieve a good trade-off:
+that can achieve a good trade-off. 
+
+I made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for this algorithm, and obtained the following results (RecursiveBF):
 
 <table>
 <tr>
@@ -23,8 +25,6 @@ that can achieve a good trade-off:
 <td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg"><p align="center">Median Blur</p></td>
 </tr>
 </table>
-
-I also made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for this algorithm.
 
 ---
 
