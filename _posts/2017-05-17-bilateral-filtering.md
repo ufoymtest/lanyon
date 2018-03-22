@@ -24,7 +24,7 @@ that can achieve a good trade-off:
 </tr>
 </table>
 
-I also made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for recursive bilateral filtering.
+I also made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for this algorithm.
 
 ---
 
