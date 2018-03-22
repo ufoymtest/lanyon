@@ -4,7 +4,9 @@ title: Real-time Bilateral Filtering
 excerpt_separator: ---
 ---
 
-Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. One effective way to solve this problem is to apply an edge-preserving filtering called ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative, and finally found ***recursive bilateral filtering*** that can achieve a good trade-off:
+Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. 
+
+To solve this problem, an effective way is to apply an edge-preserving filtering called ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative, and finally found ***recursive bilateral filtering*** that can achieve a good trade-off:
 
 <table>
 <tr>
