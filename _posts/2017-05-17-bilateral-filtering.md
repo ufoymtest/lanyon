@@ -34,5 +34,4 @@ The algorithm is pretty fast compared with most edge-preserving filtering method
 - about 18x faster than *Fast high-dimensional filtering using the permutohedral lattice*
 - about 86x faster than *Gaussian kd-trees for fast high-dimensional filtering*
 
-For more details of the algorithm, please refer to the original paper
-
+For more details of the algorithm, please refer to the original paper.
