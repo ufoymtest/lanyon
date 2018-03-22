@@ -6,7 +6,7 @@ excerpt_separator: ---
 
 Wavelet rasterization is a method for analytically calculating an anti-aliased rasterization of arbitrary polygons or shape bounded by Bezier curves. For more details, please read the following paper:
 
-  > Manson, Josiah, and Scott Schaefer. **"Wavelet rasterization."** Computer Graphics Forum. Vol. 30. No. 2. Blackwell Publishing Ltd, 2011.
+  > Manson, Josiah, and Scott Schaefer. **Wavelet rasterization**. Computer Graphics Forum. Vol. 30. No. 2. Blackwell Publishing Ltd, 2011.
 
 This is a python implementation of the algorithm. Currently it supports three types of contours:
 * Polygon
