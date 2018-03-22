@@ -10,11 +10,11 @@ To solve this problem, an effective way is to apply an edge-preserving filtering
 
 <table>
 <tr>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041579/7d7c034e-3960-11e7-9549-912685043e39.jpg"><br/><p align="center">Original Image</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041586/8b4afb42-3960-11e7-9bd8-62bbb924f1e9.jpg"><br/><p align="center">OpenCV's BF (896ms)</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041590/8d08c16c-3960-11e7-8a0c-95a77d6d9085.jpg"><br/><p align="center">RecursiveBF (18ms)</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041583/86ea7b22-3960-11e7-8ded-5109b76966ca.jpg"><br/><p align="center">Gaussian Blur</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg"><br/><p align="center">Median Blur</p></td>
+<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041579/7d7c034e-3960-11e7-9549-912685043e39.jpg"><p align="center">Original Image</p></td>
+<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041586/8b4afb42-3960-11e7-9bd8-62bbb924f1e9.jpg"><p align="center">OpenCV's BF (896ms)</p></td>
+<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041590/8d08c16c-3960-11e7-8a0c-95a77d6d9085.jpg"><p align="center">RecursiveBF (18ms)</p></td>
+<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041583/86ea7b22-3960-11e7-8ded-5109b76966ca.jpg"><p align="center">Gaussian Blur</p></td>
+<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg"><p align="center">Median Blur</p></td>
 </tr>
 </table>
 
