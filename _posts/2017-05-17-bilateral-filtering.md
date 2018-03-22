@@ -1,14 +1,16 @@
 ---
 layout: post
-title: A Lightweight C++ Library for Recursive Bilateral Filtering
+title: Real-time Bilateral Filtering
 excerpt_separator: ---
 ---
 
-Recursive bilateral filtering (developed by Qingxiong Yang) is pretty fast compared with most edge-preserving filtering methods
-- computational complexity is linear in both input size and dimensionality:
-- takes about 43 ms to process a one megapixel color image (i7 1.8GHz & 4GB mem)
-- about 18x faster than *Fast high-dimensional filtering using the permutohedral lattice*
-- about 86x faster than *Gaussian kd-trees for fast high-dimensional filtering*
+Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. One effective way to solve this problem is to apply an edge-preserving filtering called a ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU and GPU to process full HD images in real-time. So I had been looking for an efficient alternative and finnaly found ***recursive bilateral filtering***
+
+  > Yang, Qingxiong.
+  **Recursive bilateral filtering**. 
+  *ECCV* 2012.
+
+that can achieve a good trade-off between efficiency and effectiveness:
 
 <table>
 <tr>
@@ -21,6 +23,16 @@ Recursive bilateral filtering (developed by Qingxiong Yang) is pretty fast compa
 <td><img src="https://cloud.githubusercontent.com/assets/2270240/26041583/86ea7b22-3960-11e7-8ded-5109b76966ca.jpg" width="300px"><br/><p align="center">Gaussian Blur</p></td>
 <td><img src="https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg" width="300px"><br/><p align="center">Median Blur</p></td>
 </tr></table>
+
+I also made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for recursive bilateral filtering.
+
+---
+
+Recursive bilateral filtering (developed by Qingxiong Yang) is pretty fast compared with most edge-preserving filtering methods
+- computational complexity is linear in both input size and dimensionality:
+- takes about 43 ms to process a one megapixel color image (i7 1.8GHz & 4GB mem)
+- about 18x faster than *Fast high-dimensional filtering using the permutohedral lattice*
+- about 86x faster than *Gaussian kd-trees for fast high-dimensional filtering*
 
 For more details of the algorithm, please refer to the original paper
 
