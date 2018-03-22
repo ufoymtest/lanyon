@@ -4,7 +4,9 @@ title: Introducing Deepo
 excerpt_separator: ---
 ---
 
-***Deepo*** is a series of [*Docker*](http://www.docker.com/) images that
+Given the current state of deep learning research and development, we may need to play around with different frameworks (e.g., TensorFlow for production, PyTorch for research and fun, Caffe2 for edge device inference, etc). However, setting up all the deep learning frameworks to coexist and function correctly is an exercise in dependency hell.
+
+So I made ***Deepo***, which is a series of [*Docker*](http://www.docker.com/) images that
 - allows you to quickly set up your deep learning research environment
 - supports almost all [commonly used deep learning frameworks](#tags)
 - supports [GPU acceleration](#GPU) (CUDA and cuDNN included), also works in [CPU-only mode](#CPU)
