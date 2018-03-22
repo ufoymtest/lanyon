@@ -6,7 +6,13 @@ excerpt_separator: ---
 
 Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. 
 
-To solve this problem, an effective way is to apply an edge-preserving filtering called ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU / GPU to process full HD images in real-time. So I had been looking for an efficient alternative, and finally found ***recursive bilateral filtering*** that can achieve a good trade-off:
+To solve this problem, an effective way is to apply an edge-preserving filtering called ***bilateral filter***. However, a vanilla bilateral filter has a high computational cost necessitating a powerful CPU / GPU to process full HD images in real-time. So I had been looking for an efficient alternative algorithm, and finally found 
+
+  > Yang, Qingxiong.
+  **Recursive bilateral filtering**. 
+  *European Conference on Computer Vision* 2012.
+  
+that can achieve a good trade-off:
 
 <table>
 <tr>
@@ -30,6 +36,3 @@ The algorithm is pretty fast compared with most edge-preserving filtering method
 
 For more details of the algorithm, please refer to the original paper
 
-  > Yang, Qingxiong.
-  **Recursive bilateral filtering**. 
-  *European Conference on Computer Vision* 2012.
