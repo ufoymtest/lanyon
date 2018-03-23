@@ -16,15 +16,12 @@ that can achieve a good trade-off.
 
 I made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for this algorithm, and obtained the following results (RecursiveBF):
 
-<table>
-<tr>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041579/7d7c034e-3960-11e7-9549-912685043e39.jpg"><p align="center">Original Image</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041586/8b4afb42-3960-11e7-9bd8-62bbb924f1e9.jpg"><p align="center">OpenCV's BF (896ms)</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041590/8d08c16c-3960-11e7-8a0c-95a77d6d9085.jpg"><p align="center">RecursiveBF (18ms)</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041583/86ea7b22-3960-11e7-8ded-5109b76966ca.jpg"><p align="center">Gaussian Blur</p></td>
-<td valign="top"><img src="https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg"><p align="center">Median Blur</p></td>
-</tr>
-</table>
+
+
+![Original Image](https://cloud.githubusercontent.com/assets/2270240/26041579/7d7c034e-3960-11e7-9549-912685043e39.jpg) | ![OpenCV's BF (896ms)](https://cloud.githubusercontent.com/assets/2270240/26041586/8b4afb42-3960-11e7-9bd8-62bbb924f1e9.jpg) | ![RecursiveBF (18ms)](https://cloud.githubusercontent.com/assets/2270240/26041590/8d08c16c-3960-11e7-8a0c-95a77d6d9085.jpg) | ![Gaussian Blur](https://cloud.githubusercontent.com/assets/2270240/26041583/86ea7b22-3960-11e7-8ded-5109b76966ca.jpg) | ![Median Blur](https://cloud.githubusercontent.com/assets/2270240/26041584/88dfc9b4-3960-11e7-8c9d-2634eac098d0.jpg)
+:-------------:|:-------------------:|:------------------:|:-------------:|:----------:
+Original Image | OpenCV's BF (896ms) | RecursiveBF (18ms) | Gaussian Blur | Median Blur
+
 
 ---
 
