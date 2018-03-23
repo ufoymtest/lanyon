@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Real-time Bilateral Filtering
-excerpt_separator: -=-
+excerpt_separator: ------------------------------
 ---
+
+
 
 Many users have become accustomed to reducing wrinkles, freckles, and various blemishes from human subjects for a more visually appealing image or video. 
 
@@ -23,7 +25,7 @@ I made a [lightweight C++ library](https://github.com/ufoym/RecursiveBF) for thi
 Original Image | OpenCV's BF (896ms) | RecursiveBF (18ms) | Gaussian Blur | Median Blur
 
 
--=-
+------------------------------
 
 The algorithm is pretty fast compared with most edge-preserving filtering methods
 - computational complexity is linear in both input size and dimensionality:
